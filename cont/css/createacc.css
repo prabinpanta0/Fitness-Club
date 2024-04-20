@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../image/bg1.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+  form {
+    /* display: none; */
+    max-width: 600px;
+    padding: 20px 40px;
+    color: white;
+    background: rgba(56, 44, 104, 0.438);
+
+    background: linear-gradient(90deg, rgba(56, 44, 104, 0.359) 0%, rgba(181, 124, 238, 0.493) 100%);
+
+    background: -moz-linear-gradient(90deg, rgba(56, 44, 104, 0.082) 0%, rgba(181, 124, 238, 0.49) 100%);
+
+    background: -webkit-linear-gradient(90deg, rgba(56, 44, 104, 0.216) 0%, rgba(181, 124, 238, 0.444) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#392D69", endColorstr="#B57BEE", GradientType=1 );
+    /* color: #fff; */
+    height: 43pc;
+    text-align:start;
+    margin-top: 1.7pc;
+    margin-left: 3pc;
+    /* margin: 3pc; */
+    /* display: block; */
+    box-shadow: 3px 0 10px 15px rgba(252, 252, 252, 0.76),
+            10px 0 10px 15px rgba(9, 230, 57, 0.458),
+            10px 0 30px 15px rgba(234, 11, 11, 0.456),
+            10px 0 10px 15px rgba(121, 6, 237, 0.471),
+            -6px 0 7px rgba(8, 1, 1, 0.681) inset;
+    transition: 0.3s;
+    position: relative;
+    /* transform: translateY(180px); */
+    z-index: 500;
+    /* border-radius: 30px; */
+    border: transparent;
+    border: 1px solid #0c0c0c;
+    border-left: transparent;
+    
+  }
+ 
+  /* input, button, a{
+    color: transparent;
+    background-color: transparent;
+    border: none;
+  } */
+
+  h1, button{
+    text-align: center;
+  }
+
+  #img_url {
+    width:100%;
+    height: 100px;
+    object-fit: scale-down;
+  }
+
+  h1{
+    font-family: 'Arizonia', cursive;
+    font-size: xx-large;
+  }

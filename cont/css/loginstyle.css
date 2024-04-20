@@ -1,0 +1,58 @@
+body {
+  background-color: #cc3367;
+}
+
+.body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+form {
+  display: none;
+  max-width: 400px;
+  padding: 20px 40px;
+  background: #fff;
+  /* height: 300px; */
+  margin: auto;
+  display: block;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  position: relative;
+  transform: translateY(180px);
+  z-index: 500;
+  border-radius: 30px;
+  border: 1px solid #eee;
+}
+h1 {
+  color: #FF4081;
+  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Sevillana', cursive; */
+}
+.form-2{
+  margin: auto;
+  max-width: 800px;
+  display: block;
+  transition: 0.3s;
+  animation: showForm 0.9s ease forwards;
+  transform: translateY(100px);
+}
+.btn-0{
+  padding: 6px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: red solid 2px;
+}
+.btn-0:hover{
+  background-color: red;
+  color: black;
+  transform: scale(1.05) translateY(-10px);
+  transform: scale(1.3);
+  transition: transform 210ms;
+}
+
+#div2 {
+  display: none;
+}

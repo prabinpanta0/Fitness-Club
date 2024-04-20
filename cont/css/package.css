@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  background-color: transparent;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.cover-lg{
+  padding: 3%;
+}
+
+.col{
+  padding: 30px;
+}
+.row{
+  padding-top: 30px;
+}
+.card-box{
+  transition: transform 0.3s ease-in-out;
+}
+.card-box:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  transform: translateY(-10px);}
+.foot-txt{
+  font-family: 'Satisfy', cursive;
+  padding: 30px;
+  padding-top: 60px;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+.btn-c{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  border: transparent solid 2px;
+  text-shadow: none;
+}
+
+.btn-c:hover{
+  background-color: white;
+  color: black;
+  text-shadow: none;
+
+}

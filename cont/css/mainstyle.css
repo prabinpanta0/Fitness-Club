@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Urbanist&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+/* applied to all  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .nav-b{
+    /* margin-top: -9px; */
+    padding-top: 0px;
+  }
+  .header {
+      padding-bottom: 20px;
+    }
+    
+    button:focus {
+      outline: none;
+  }
+    .bg-body-tertiary{
+      background-color: white;
+    }
+    .header-logo {
+      display: block;
+      width: 200px;
+      padding-left: 20px;
+    }
+    
+    .header-logo img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .header-nav {
+      display: flex;
+      background-color: transparent;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    
+    .header-nav ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 29px;
+    }
+    
+    .header-nav li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+    
+    .header-nav a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .foot{
+        background-color: rgba(174, 183, 176, 0.821);
+      }

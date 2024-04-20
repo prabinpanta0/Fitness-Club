@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body{
+    background-color: black;
+
+}
+.cover-last{
+    text-align: center;
+  width: var( --container-widget-width, 74% );
+  width: 100%;
+  height: 100%;
+  --container-widget-width: 74%;
+  --container-widget-flex-grow: 0;
+  overflow: hidden;
+  background-color: #F3D13EF0;
+  background-image: url(../image/aboutcov.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* overflow: hidden; */
+  height: 668px;
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+.dt{
+    color: white;
+    background-color: #b2aa8686;
+    width: fit-content;
+    border-radius: 20px;
+    margin: auto;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+    padding: 40px;
+
+}
+.dt:hover{
+    transform: scale(1.05) translateY(-10px);
+    background-color: rgba(70, 153, 226, 0.482);
+    color: rgb(250, 246, 246);
+    /* text-shadow: -1px 1px 0 #ece1e1, 
+                          1px 1px 0 #ece4e4, 
+                         1px -1px 0 #f9efef, 
+                        -1px -1px 0 #e8e4e4;  */
+}
+.dl{
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    transition: all .3s ease;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #b2aa86ea;
+}
+.dl:hover{
+    background-color: rgba(75, 144, 22, 0.771);
+    /* transform: scale(1.05) translateY(-10px); */
+}
+.dl a{
+    text-decoration: none;
+    color: white;
+}
+.cl{
+    width: max-content;
+    padding: 40px;
+    margin: auto;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease;
+    color: white;
+}
+.btn-c{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    border: transparent solid 2px;
+    float: right;
+    text-shadow: none;
+}
+
+.btn-c:hover{
+    background-color: white;
+    color: black;
+    text-shadow: none;
+
+}
+.data{
+    padding: 3%;
+}
+.als{
+    padding: 20px;
+
+}
+.data{
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'EB Garamond', serif;
+    font-size: large;
+}
+.txt-h{
+    font-weight: 600;
+    font-style: italic;
+}
+.txt-c{
+    font-weight: 100; 
+}
+
+.data ul li{
+    padding: 4px;
+    font-size: large;
+}
+.data ul li b {
+    padding-right: 5px;
+}
+.lfe{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.c{
+    padding: 8px;
+    border-top: #b2aa8686 solid ;
+    border-bottom: #b2aa8686 solid ;
+}
+.contact{
+    background-color: red;
+    padding: 16px;
+    color: white;
+}

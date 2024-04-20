@@ -1,0 +1,85 @@
+/* .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+    } */
+    .card{
+        border: transparent !important;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: hsla(167, 68%, 73%, 1);
+
+background: linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+
+/* background: -webkit-linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, rgba(50, 195, 190, 0.597) 100%); */
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
+      }
+      .navbar{
+        justify-content: space-evenly !important;
+      }
+      /* h2{
+        text-align: center;
+        padding-left: 10pc;
+        justify-self: center;
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+      } */
+      .container{
+        border: #333 1px solid;
+        margin-top: 1pc;
+        background-color: white;
+      }
+      .containe {
+        /* max-width: 120px; */
+        display: grid;
+        /* grid-template-columns: repeat(17); */
+        /* grid-gap: 20px; */
+        padding: 30px;
+        padding-left: 4pc;
+        /* text-align: center;
+        text-align: center; */
+        /* float: right; */
+        /* border: 1px solid black; */
+      }
+      .col-5{
+        text-align: left;
+        padding: 3px;
+      }
+      .r{
+        padding-left: 5pc;
+      }
+      .bd-example{
+        max-width: 1200px;
+        margin: 0 auto;
+        /* display: grid; */
+        /* grid-template-columns: repeat(12, 1fr); */
+        /* grid-gap: 20px; */
+        padding-bottom: 3pc;
+        border: transparent;
+        
+      }
+    .div1 { 
+        grid-column: span 4;
+        grid-row: span 6;
+        background-color: #ddd;
+        padding: 2pc;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        color: #333;}
+    .div2 { grid-column: span 8;
+        grid-row: span 3;}
+    .div3 { grid-column: span 8;
+        grid-row: span 3;}
+
+    
